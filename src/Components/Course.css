@@ -1,0 +1,126 @@
+/* Course Header */
+.course-header {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 36px;
+  font-style: italic;
+  background-color: #003366;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Main Content */
+.course-container {
+  margin: 20px;
+}
+
+.course-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.course-video-info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.course-video {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.course-info {
+  width: 50%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.course-description {
+  font-size: 18px;
+  font-style: italic;
+  color: gray;
+}
+
+.course-summary {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Buttons */
+.enroll-button,
+.enroll-button-deactive {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #017bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #0056b3;
+}
+
+.enroll-button-deactive {
+  background-color: #b8b8b8;
+  cursor: not-allowed;
+}
+
+.enroll-button-deactive:hover {
+  background-color: #b8b8b8;
+}
+
+/* Progress & Report Section */
+.progress-report {
+  width: 50%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.progress-section,
+.report-section {
+  margin: 20px 0;
+  width: 80%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.completion-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.completion-percent {
+  font-weight: bold;
+  font-size: 22px;
+  color: #017bff;
+}
+
+/* Modal */
+.ant-modal-header {
+  background-color: #003366;
+  color: white;
+}
+
+.ant-modal-footer {
+  display: none;
+}
